@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="proyecto.Ventana3">
+  <grid id="27dc6" binding="Panel3" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="465" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="e1ba0" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="Alimentos"/>
+        </properties>
+      </component>
+      <component id="233d4" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <foreground color="-4518912"/>
+          <text value="Clasificación"/>
+        </properties>
+      </component>
+      <component id="ee708" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <foreground color="-16448251"/>
+          <text value="Carbohidratos"/>
+        </properties>
+      </component>
+      <component id="a3fc0" class="javax.swing.JButton" binding="patataButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <foreground color="-15854149"/>
+          <text value="Patata"/>
+        </properties>
+      </component>
+      <component id="fc2af" class="javax.swing.JButton" binding="maízButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <foreground color="-15854149"/>
+          <text value="Maíz"/>
+        </properties>
+      </component>
+      <component id="a477f" class="javax.swing.JButton" binding="pastaButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <foreground color="-15854149"/>
+          <text value="Pasta"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
