@@ -53,9 +53,7 @@ public class Ventana2 extends JFrame{
                 if(m.matches() && m1.matches() && Genero_lista.getSelectedItem().toString().length() != 0){
 
                     double IMC = Double.parseDouble(Peso_input.getText()) / Math.pow(Double.parseDouble(Altura_input.getText())/100, 2) ;
-                    System.out.println(Double.parseDouble(Peso_input.getText()) );
-                    System.out.println(Double.parseDouble(Altura_input.getText()));
-                    System.out.println(IMC);
+                    System.out.println("soy pepe");
                     JOptionPane.showMessageDialog(null, "Su IMC es de: " + IMC);
                 }else{
                     JOptionPane.showMessageDialog(null, "Error al ingresar los datos");
